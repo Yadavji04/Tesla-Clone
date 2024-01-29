@@ -5,7 +5,7 @@ import {navLinks} from "../Constant/index"
 const Navbar = () => {
   return (
     <header className='flex justify-between items-center px-12 py-4'>
-      <img src={logo} className="w-28 object-contain" />
+      <img src={logo} className="md:w-28 yoyo object-contain" />
       <div className='hidden items-center lg:flex gap-x-6'>
         {
             navLinks.map(({id, title})=>(
